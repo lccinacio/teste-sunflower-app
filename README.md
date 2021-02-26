@@ -1,8 +1,7 @@
-Desafio 1:
-# Descrever caso de teste do AppStart
+# Desafio 1 - Descrever caso de teste do AppStart
+Neste desafio foram descritos alguns casos de teste para o App da empresa Start.
 
-Desafio 2:
-# Automação Mobile
+# Desafio 2 - Automação Mobile
 
 Foram feitos testes com o app Sunflower, sendo eles:
 - Adicionar uma planta ao 'My Garden' utilizando o botão 'Add plant'
@@ -13,6 +12,4 @@ Ferramentas utilizadas:
 - Android Studio;
 - Python;
 - Robot;
-- Appium;
-"# appsunflower"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/lccinacio/appsunflower.git git push -u origin main
-"# appsunflower"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/lccinacio/appsunflower.git git push -u origin lucasprojeto
+- Appium.
