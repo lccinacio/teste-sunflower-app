@@ -9,7 +9,8 @@ Open Session
     ...                 automationName=UiAutomator2
     ...                 platformName=Android
     ...                 deviceName=Emulator
-    ...                 app=C:\\lucasprojeto\\Mobile\\apk\\sunflower.apk
+    ...                 app=${CURDIR}\\app\\sunflower.apk
+    ...                 udid=emulator-5554 
 Close Session
     Close Application
 
