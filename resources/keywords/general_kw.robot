@@ -3,7 +3,7 @@ Documentation                   Keywords genericas
 Library                         AppiumLibrary
 
 ***Keywords***
-Abrindo a aplicação
+abrindo a aplicação
     Set Appium Timeout          15
     Open Application            http://localhost:4723/wd/hub
     ...                         automationName=UiAutomator2
@@ -13,5 +13,14 @@ Abrindo a aplicação
     ...                         udid=emulator-5554
     Wait Until Page Contains    Sunflower
 
-Fechando Apicação
+fechando Apicação
     Close Application
+
+clicando no texto
+    [Arguments]         ${text}
+    FOR     ${i}    IN RANGE        10
+        ${var}      Run Keyword And Return Status           Page Should Contain Text       ${text}
+        Exit For Loop If            ${var}
+        Swipe By Percent            50.09       64.06       50.09     46.09
+    END
+    Click Text          ${text}  
