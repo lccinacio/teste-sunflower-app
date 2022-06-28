@@ -1,8 +1,8 @@
 # O projeto está organizado da seguinte maneira:
 
-O arquivo de teste está na pasta "tests"
-O arquivo com as keywords utilizadas está na pasta "resources/keywords"
-O arquivo "base.robot" é utilizado como atalho para importar os demais arquivos.
+- O arquivo de teste está na pasta "tests"
+- O arquivo com as keywords utilizadas está na pasta "resources/keywords"
+- O arquivo "base.robot" é utilizado como atalho para importar os demais arquivos.
 
 # Como Executar:
 
