@@ -21,6 +21,6 @@ clicando no texto
     FOR     ${i}    IN RANGE        10
         ${var}      Run Keyword And Return Status           Page Should Contain Text       ${text}
         Exit For Loop If            ${var}
-        Swipe By Percent            50.09       64.06       50.09     46.09
+        Swipe By Percent            50.09       65       50.09     40
     END
     Click Text          ${text}  
