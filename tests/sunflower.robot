@@ -10,4 +10,4 @@ Cenário-0001: Validando a pagina inicial do app
     Dado que estou na home do app
     clicando no texto         ADD PLANT
     estou na lista de plantas
-    clicando no texto         Mango
+    clicando no texto         Tomato
