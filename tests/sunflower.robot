@@ -9,5 +9,7 @@ Test Teardown           Capture Page Screenshot
 Cenário-0001: Validando a pagina inicial do app
     Dado que estou na home do app
     clicando no texto         ADD PLANT
-    estou na lista de plantas
-    clicando no texto         Tomato
+    click on apple plant 
+    user click in back button
+    click on bougavilie plant
+    #clicando no texto         Tomato
